@@ -1,10 +1,10 @@
 #include <iostream>
-#include "dns_resolver.h"
+#include "resolver.h"
 
 using namespace std;
 
 int main(){
-    DnsResolver resolver;
+    Resolver resolver;
 
     char input[100];
     char protocol[30];

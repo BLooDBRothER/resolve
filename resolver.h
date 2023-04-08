@@ -3,7 +3,7 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
-class DnsResolver{
+class Resolver{
     private:
         struct addrinfo *ai;
 
